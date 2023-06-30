@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: transparent;
+  height: 5.15rem;
+  transition: background-color 1.0s;
+}
+
+.navbar.scrolled {
+    background-color: #ffffff;
+    box-shadow: #28247a;
+    -webkit-box-shadow: 0px 8px 38px -6px rgba(12,31,235,1);
+    -moz-box-shadow: 0px 8px 38px -6px rgba(12,31,235,1);
+    box-shadow: 0px 8px 38px -6px rgba(12,31,235,1);
+
+}
+
+.navbar .logo {
+  color: #b83434;
+  height: 50px;
+  max-width: 180px;
+  transition: all 0.9s;
+}
+
+.navbar .logo:hover {
+  height: 50px;
+  width: 180px;
+  transition: all 0.9s;
+}
+
+.top-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #28247a;
+  font-size: 16px;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+  border-color: rgba(0, 0, 2, 0.318);
+  font-weight: 500;
+  position: relative;
+  transition: background-color 0.3s, transform 0.6s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffffffe3;
+  color: #000000;
+  border-color: rgba(3, 3, 3, 0.516);
+  box-shadow: 0px 4px 1px rgba(37, 37, 37, 0.397);
+}
